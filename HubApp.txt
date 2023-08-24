@@ -1,0 +1,29 @@
+
+					Maponya Community Hub
+How to Use-:
+
+-DOWNLOAD ZIP and Extract contents into single folder
+ 
+*Data Query may fail due to disconnected database
+
+Motive-:
+
+-The motive behind the app was to produce a booking/reservation system for Soweto's Maponya Mall Community Hub.
+
+NOTE-:
+-The App is entirely dependent on a SQL database for querying data. Hence is not completely functional as is --
+-This repo copy is just a 'stage' version of the app.
+-Simply run the executable which is drawing from the build lib.
+
+ABOUT APP-:
+
+-App has interesting payment rate calculations on hourly,daily and yearly basis.
+-Prints detailed bill at the end of a checkout which renders the iText class and uses date objects to record time in hours and minutes.
+-Comprises of a splash screen during startup with a JProgress bar and experiments with threading. 
+
+EXTRA INFO-:
+
+-App is yet to undergo stress testing and limitations etc. This is happening practically at the Hub as the app is being improved and enhanced practically everyday.
+-The app is yet to take on a web/remote version
+-Jar files deployed in the database creation are contained in lib, essentially MariaDB,JConnector,AbsoluteLayout,iText and Jconnector.
+
